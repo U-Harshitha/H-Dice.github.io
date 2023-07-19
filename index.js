@@ -1,7 +1,7 @@
 var roll = Math.floor(Math.random() * 6) + 1;
-var result = "images/dice" + roll + ".png";
+var result = "dice" + roll + ".png";
 var roll2 = Math.floor(Math.random() * 6) + 1;
-var result2 = "images/dice" + roll2 + ".png";
+var result2 = "dice" + roll2 + ".png";
 var i1 = document.querySelectorAll("img")[0];
 var i2 = document.querySelectorAll("img")[1];
 i1.setAttribute("src",result);
